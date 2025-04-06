@@ -16,5 +16,14 @@ bricks:
       ref: feature-v0.1.0
 ```
 
+## コマンドの場合
+
+```
+mason add feature \
+  --git-url https://github.com/K9i-0/mason.git \
+  --git-ref feature-v0.1.0 \
+  --git-path bricks/feature
+```
+
 # 解説です
 https://zenn.dev/k9i/articles/859aa1999ece9a
